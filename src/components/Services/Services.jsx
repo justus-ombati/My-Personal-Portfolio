@@ -6,7 +6,7 @@ import Coding from "../../img/coding.png";
 import UiUx from "../../img/ui-ux.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+// import Resume from 'https://docs.google.com/document/d/1ukN_SwxOqXtMd0DU0w7EPOMqwB2XmV8MPfMcQy0lMnI/edit?usp=sharing';
 
 const Services = () => {
   // context
@@ -30,8 +30,8 @@ const Services = () => {
           I provide end-to-end digital solutions, including web design, backend API development, <br />frontend development, and UI/UX design. 
           From creating visually appealing interfaces to <br />building robust backend systems, I ensure seamless user experiences across all platforms.
         </spane>
-        <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+        <a href="https://docs.google.com/document/d/1ukN_SwxOqXtMd0DU0w7EPOMqwB2XmV8MPfMcQy0lMnI/edit?usp=sharing" download>
+          <button className="button s-button">View CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
